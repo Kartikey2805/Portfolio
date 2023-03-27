@@ -34,15 +34,3 @@ with col4:
         st.image(f"images/{row['image']}")
         st.write(f"[Source Code]({row['url']})")
 
-st.markdown(
-    """
-    <style>
-
-    img {
-      border-radius:50%;
-    }
-
-    </style>
-
-    """
-)
